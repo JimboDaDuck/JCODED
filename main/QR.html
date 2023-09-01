@@ -36,12 +36,7 @@
             const qrCodeDiv = document.getElementById("qrcode");
             qrCodeDiv.innerHTML = ''; // Clear any existing QR code
 
-            const qrcode = new QRCode(
-                document.getElementById("qrcode"),
-                {
-                    text: text
-                }
-            )
+            const qrcode = new QRCode(document.getElementById("qrcode"), {text: text})
         }
     </script>
 </body>
