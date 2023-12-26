@@ -91,14 +91,14 @@ button:hover {
 
 .barcode {
     display: block;
-    margin: 0 auto; /* Center horizontally */
+    margin: 0 auto;
     margin-top: 20px;
 }
 
 .qrcode {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center;
 }
 
         .Home-Button {
